@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us</title>
+    </head>
+    <link rel="Stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <body class="about-us">
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="how it works.html">How It Works</a>
+            <a href="download.html">Download</a>
+            <a href="about us.html">About Us</a>
+            <a href="support.html">Support</a>
+            <div class="switch" onclick="SwitchTheme()">
+                <button type="button"></button>
+            </div>
+        </nav>
+
+        <section class="section col-norm">
+            <div class="hero">
+                <h2>Connect, Chat, Share</h2>
+                <p>Fostering meaningful interactions and effortless expression in every moment.</p>
+            </div>
+            <div class="hero mission">
+                <h2>Our Mission</h2>
+                <p>"At Rocon, we redefine communication with a modern touch—offering seamless connections, engaging chats, and the power to share like royalty."</p>
+                <p>- The Rocon Team</p>
+            </div>
+
+            <div class="values">
+                <h2>Core Values</h2>
+                <div class="value-box button">
+                    <h3>Identity & Equality</h3>
+                    <p>Celebrating individuality while fostering a world of equal connections and shared voices.</p>
+                </div>
+                <div class="value-box button">
+                    <h3>Privacy & Security</h3>
+                    <p>We ensure that every individual is the sole point of privacy, employing dynamic authorization techniques.</p>
+                </div>
+                <div class="value-box button">
+                    <h3>Innovation & Growth</h3>
+                    <p>Continuously evolving to enhance user experience while prioritizing secure and efficient communication.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section col-norm">
+            <div class = 'text-content'>
+                <h1><u>Meet the Creators</u></h1>
+            </div>
+
+            <div class='section profile-container'>
+                <div class="profile profile-norm" id="member1" onclick="ShowProfile('member1')">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E03AQHWf2Vndc4XjA/profile-displayphoto-shrink_400_400/B4EZYCuJacHUAk-/0/1743802374526?e=1750896000&v=beta&t=RIsepuNXaOvzf-VJ4uwEVZTke37iFJQX8Qg6ugWIcJw">
+                    <h3>Okonkwo C. Noel</h3>
+                    <p>Lead Developer</p>
+                    <div class="profile-detail">
+                        <p>
+                            Noel is the visionary behind Rocon, crafting its foundation with seamless user experiences and robust security features.
+                            <br>
+                            Visit him on: <br><br>
+                            >>> <a href="https://www.linkedin.com/in/noel-mtc22/" target="_blank">LinkedIn</a>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile profile-norm" id="member2" onclick="ShowProfile('member2')">
+                    <img src="https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1745852400&v=beta&t=ZpR2R80CS25cG9X5QVz6bnlFbog7ZtM6UaXOcLuKctI">
+                    <h3>Oloniyo O. David</h3>
+                    <p>Design & UI Specialist</p>
+                    <div class="profile-detail">
+                        <p>
+                            David is ever focused on making Rocon visually stunning, blending intuitive design with functionality.
+                            <!-- <br>
+                            Visit him on: <br><br>
+                            >>> <a href="https://www.linkedin.com/in/noel-mtc22/" target="_blank">LinkedIn</a>
+                            <br> -->
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile profile-norm" id="member3" onclick="ShowProfile('member3')">
+                    <img src="https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1745852400&v=beta&t=ZpR2R80CS25cG9X5QVz6bnlFbog7ZtM6UaXOcLuKctI">
+                    <h3>Olapade Temi</h3>
+                    <p>Backend Developer</p>
+                    <div class="profile-detail">
+                        <p>
+                            Ensuring secure data management and smooth operation behind the scenes.
+                            <br>
+                            <!-- Visit him on: <br><br>
+                            >>> <a href="https://www.linkedin.com/in/noel-mtc22/" target="_blank">LinkedIn</a>
+                            <br> -->
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile profile-norm" id="member4" onclick="ShowProfile('member4')">
+                    <img src="https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1745852400&v=beta&t=ZpR2R80CS25cG9X5QVz6bnlFbog7ZtM6UaXOcLuKctI">
+                    <h3>Fadahunsi Pelumi</h3>
+                    <p>Security & Encryption</p>
+                    <div class="profile-detail">
+                        <p>
+                            Implementing cutting-edge security protocols to protect user privacy.
+                            <!-- <br>
+                            Visit him on: <br><br>
+                            >>> <a href="https://www.linkedin.com/in/noel-mtc22/" target="_blank">LinkedIn</a>
+                            <br> -->
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile profile-norm" id="member5" onclick="ShowProfile('member5')">
+                    <img src="https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1745852400&v=beta&t=ZpR2R80CS25cG9X5QVz6bnlFbog7ZtM6UaXOcLuKctI">
+                    <h3>Tairu Toluwalase</h3>
+                    <p>Marketing & Community</p>
+                    <div class="profile-detail">
+                        <p>
+                            Building a strong community and ensuring Rocon reaches the world.
+                            <!-- <br>
+                            Visit him on: <br><br>
+                            >>> <a href="" target="_blank">LinkedIn</a>
+                            <br> -->
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile profile-norm" id="member6" onclick="ShowProfile('member6')">
+                    <img src="https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1745852400&v=beta&t=ZpR2R80CS25cG9X5QVz6bnlFbog7ZtM6UaXOcLuKctI">
+                    <h3>Onyishi David</h3>
+                    <p>Marketing % Community</p>
+                    <div class="profile-detail">
+                        <p>
+                            Building a strong community and ensuring Rocon reaches the world.
+                            <br>
+                            Visit him on: <br><br>
+                            >>> <a href="https://www.linkedin.com/in/david-onyishi-1603a4294/" target="_blank">LinkedIn</a>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="detail"></div>
+        </section>
+    
+        <section class="section col-norm">
+            <h2>The Journey Ahead</h2>
+            <p>With Rocon still in its early stages, we are excited about what’s next. New features, more enhancements, and a refined user experience are all on the horizon.</p>
+            <p><strong>Current Version:</strong> Pre-launch v0.1.0</p>
+            <button class="button" onclick="location.href = 'download.html'">Download for Windows</button>
+            <p></p>
+        </section>
+    
+        <footer>
+            <p>&copy; 2025 Rocon. All rights reserved.</p>
+            <p>Follow us on:
+                <a href="#">Facebook</a>,
+                <a href="#">Twitter</a>,
+                <a href="#">Instagram</a>
+            </p>
+        </footer>
+    </body>
+</html>
