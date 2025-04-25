@@ -4,21 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Us</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     </head>
     <link rel="Stylesheet" href="style.css">
     <script src="script.js"></script>
     <body class="about-us">
         <!-- Navigation -->
         <nav>
-            <a href="index.html">Home</a>
-            <a href="features.html">Features</a>
-            <a href="how it works.html">How It Works</a>
-            <a href="download.html">Download</a>
-            <a href="about us.html">About Us</a>
-            <a href="support.html">Support</a>
-            <div class="switch" onclick="SwitchTheme()">
-                <button type="button"></button>
-            </div>
+            <a data-aos="fade-down" data-aos-duration="500" href="index.html">Home</a>
+            <a data-aos="fade-down" data-aos-duration="1000" href="features.html">Features</a>
+            <a data-aos="fade-down" data-aos-duration="1500" href="how it works.html">How It Works</a>
+            <a data-aos="fade-down" data-aos-duration="2000" href="download.html">Download</a>
+            <a data-aos="fade-down" data-aos-duration="2500" href="about us.html">About Us</a>
+            <a data-aos="fade-down" data-aos-duration="3000" href="support.html">Support</a>
+            <button type="button" onclick="SwitchTheme()">
+                <!--<img src="images/">-->
+            </button>
+            
         </nav>
 
         <section class="section col-norm">
@@ -153,7 +155,7 @@
             <h2>The Journey Ahead</h2>
             <p>With Rocon still in its early stages, we are excited about what’s next. New features, more enhancements, and a refined user experience are all on the horizon.</p>
             <p><strong>Current Version:</strong> Pre-launch v0.1.0</p>
-            <button class="button" onclick="location.href = 'download.html'">Download for Windows</button>
+            <button class="button" onclick="location.href = 'download.html'">Download</button>
             <p></p>
         </section>
     
@@ -165,5 +167,9 @@
                 <a href="#">Instagram</a>
             </p>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
