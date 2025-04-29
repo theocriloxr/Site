@@ -405,8 +405,14 @@ footer {
     transition: all 0.3s ease-in-out;
     position: relative;
     overflow: hidden;
+    width: 10vw;
+    height: 25vh;
 }
-.about-us .profile:hover {background-color: #632763;}
+.about-us .profile:hover {
+    background-color: #632763;
+    width: 20vw;
+    height: 40vh;
+}
 .about-us .profile-norm {background-color: #344C94;}
 .about-us .profile-clicked {background-color: #3386ee;}
 .profile-container {
